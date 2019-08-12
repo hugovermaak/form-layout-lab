@@ -1,0 +1,23 @@
+nav {
+  background-color: #333;
+
+  ul {
+    display: flex;
+    list-style: none;
+    li {
+      margin: 0 1rem;
+      display: flex;
+      a {
+        color: #efefef;
+        padding: 1rem;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.container {
+  display: flex;
+  max-width: 760px;
+  margin: 0 auto;
+}
